@@ -32,6 +32,7 @@ class Card2 extends StatelessWidget {
             ),
             // TODO 4: add Positioned text
             // 1
+
             Expanded(
               // 2
               child: Stack(
@@ -55,6 +56,14 @@ class Card2 extends StatelessWidget {
                         'Smoothies',
                         style: FooderlichTheme.lightTextTheme.headline1,
                       ),
+                    ),
+                  ),
+                  Positioned(
+                    bottom: 300,
+                    right: 10,
+                    child: Text(
+                      'jose manuel bautista',
+                      style: FooderlichTheme.lightTextTheme.headline1,
                     ),
                   ),
                 ],
